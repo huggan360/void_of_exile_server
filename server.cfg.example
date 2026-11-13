@@ -1,0 +1,18 @@
+; Void of Exile server settings (config/server.cfg). The launcher's Server page
+; writes this for you. Restart the server after a change.
+
+[server]
+name="My Void Realm"          ; shown in the server list
+port=24565                    ; UDP; the status ping uses port+1
+max_players=40
+motd="Welcome to the Void."
+public=true                   ; listed for players outside your network
+lan_discovery=true
+max_memory_mb=4096            ; worlds unload above this (0: no limit)
+
+[gameplay]
+player_collision=false        ; players block each other and each other's shots
+
+[accounts]
+url="https://void.plainshow.se"
+server_key=""                 ; from the launcher (Server page), tied to your account

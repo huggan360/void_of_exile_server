@@ -1,0 +1,5 @@
+# A server's own files: its config (server key), world saves and the build itself
+config/
+data/
+VoidOfExileServer*
+*.log
